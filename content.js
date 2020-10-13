@@ -5,9 +5,9 @@ chrome.runtime.onMessage.addListener(
       //The letter variables below were coded to grab very specific elements, designed only to work with App 400
       let a = document.querySelectorAll("strong")[2].innerText;
       let b = document.querySelectorAll("span")[29].innerText;
-      //if b contins a comma, split everything that comes after into variable "c", Address Line 2
       let c = '';
       let ele = 30;
+      //If the occasional second line address exists span 30 is grabbed while the proceeding data is grabbed from span 31
       if (document.querySelectorAll("span")[30].innerText.split("")[0] === ",") {
         c = document.querySelectorAll("span")[ele].innerText.split(", ")[1];
         ele = 31;
