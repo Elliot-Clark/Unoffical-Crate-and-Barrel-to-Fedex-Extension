@@ -1,8 +1,7 @@
 chrome.runtime.onMessage.addListener(
   function() {
     //If on the App 400, copy the data on screen
-    //if (document.querySelector("title").innerText.indexOf("Customer Order") != -1) {
-      if (document.querySelector("title").innerText.indexOf("CodePen") != -1) {
+    if (document.querySelector("title").innerText.indexOf("Customer Order") != -1) {
       //The letter variables below were coded to grab very specific elements, designed only to work with App 400
       let a = document.querySelectorAll("strong")[2].innerText;
       let b = document.querySelectorAll("span")[29].innerText;
