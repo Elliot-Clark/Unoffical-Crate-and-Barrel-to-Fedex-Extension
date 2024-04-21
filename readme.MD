@@ -1,3 +1,5 @@
+Update: This extension worked as planned, but changes to the Crate and Barrel methods of shipping has since made this obsolete.
+
 A Chrome Extension made for the sole specific purpose of copying Customer Shipping Information from Crate and Barrel’s App400 website and pasting it directly into Fedex’s Create Shipment page. Rather than typing it in off a shipping label, this extension will save a decent amount of employee time while also removing the possibility of errors through typos.
 
 ## To Use
